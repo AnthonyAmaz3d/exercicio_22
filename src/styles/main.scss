@@ -1,4 +1,5 @@
 @use 'hero';
+@use 'event';
 @use './components/infos-bars';
 @use './components/buttons';
 
@@ -7,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
     list-style: none;
 }
 
@@ -14,6 +16,10 @@
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+}
+
+.gradient {
+    background-image: linear-gradient(140deg, #00b6ea 0, #00b5ff 3.33%, #00b4ff 6.67%, #00b2ff 10%, #00b0ff 13.33%, #00acff 16.67%, #00a8ff 20%, #00a2ff 23.33%, #009cff 26.67%, #0094ff 30%, #008aff 33.33%, #5d7fff 36.67%, #9672ff 40%, #bd63ff 43.33%, #da51ff 46.67%, #f23cf2 50%, #ff1edd 53.33%, #ff00c6 56.67%, #ff00af 60%, #ff0098 63.33%, #ff0080 66.67%, #ff006a 70%, #ff0053 73.33%, #ff153c 76.67%, #ff3523 80%, #ff4a00 83.33%, #fe5b00 86.67%, #f06a00 90%, #e07600 93.33%, #ce8100 96.67%, #bc8a00 100%);
 }
 
 
