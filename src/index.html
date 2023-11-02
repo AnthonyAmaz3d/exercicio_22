@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -41,7 +42,7 @@
     <section class="gradient">
 
             <section class="event">
-                <div class="container" >
+                <div class="container" data-aos="fade-right" >
                     <div class="event__details">
                         <h2 class="event__details__title">Descrição</h2>
                         <p class="event__details__description">
@@ -53,7 +54,7 @@
             </section>
 
             <section class="event event--image-left">
-                <div class="container" >
+                <div class="container" data-aos="fade-left" >
                     <div class="event__details">
                         <h2 class="event__details__title">Espaço</h2>
                         <p class="event__details__description">
@@ -65,7 +66,7 @@
             </section>
 
             <section class="event">
-                <div class="container" >
+                <div class="container" data-aos="fade-right" >
                     <div class="event__details">
                         <h2 class="event__details__title">Parabéns</h2>
                         <p class="event__details__description">
@@ -77,7 +78,7 @@
             </section>
 
             <section class="event event--image-left">
-                <div class="container" >
+                <div class="container" data-aos="fade-left" >
                     <div class="event__details">
                         <h2 class="event__details__title">Alimentação</h2>
                         <p class="event__details__description">
@@ -90,6 +91,7 @@
 
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>

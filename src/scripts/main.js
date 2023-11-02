@@ -1,1 +1,1 @@
-console.log("Olá, Exercicio")
+AOS.init();
