@@ -1,3 +1,5 @@
+@use 'variables';
+
 .hero {
     position: relative;
     padding-top: 64px;
@@ -13,7 +15,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #000;
+        background-color: variables.$corTextoSecundario;
         opacity: .6;
         content: "";
     }
@@ -31,7 +33,7 @@
     &__text {
         margin-top: 64px;
         margin-bottom: 64px;
-        color: #fff;
+        color: variables.$corDoTexto;
         font-size: 40px;
         line-height: 56px;
         font-weight: 800;

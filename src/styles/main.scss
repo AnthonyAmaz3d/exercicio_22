@@ -2,13 +2,14 @@
 @use 'event';
 @use './components/infos-bars';
 @use './components/buttons';
+@use 'variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: variables.$corDoTexto;
     list-style: none;
 }
 
